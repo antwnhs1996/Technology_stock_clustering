@@ -1,8 +1,6 @@
 # Technology stocks clustering 
 
-[TOCM]
 
-[TOC]
 
 ## Introduction
 The tech sector is filled with secular growth stories, which profit from disruptive long-term trends, instead of cyclical ones that are tightly tethered to macroeconomic cycles. Trends like 5G communication networks, cloud computing, artificial intelligence, cybersecurity, driverless cars, e-commerce, social networks, and augmented reality are all long-term secular growth stories that could disrupt older markets. Therefore its crusial for modern investors to allocate a porpotion of their portfolio to these sector.
