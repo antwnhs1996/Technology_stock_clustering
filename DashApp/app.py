@@ -91,6 +91,7 @@ def kpi_fig(stock, algo , kpi_vis = kpi_vis, sp_vis=sp_vis, nasdaq_vis = nasdaq_
 
 
 app = dash.Dash(external_stylesheets = [dbc.themes.BOOTSTRAP])
+server = app.server
 
 SIDEBAR_STYLE = {
     "position": "fixed",
