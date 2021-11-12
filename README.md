@@ -296,12 +296,12 @@ data = pd.read_csv('../data/clustering_data')
 ### Introduction to Clustering
 Clustering is defined as dividing data points or population into several groups such that similar data points are in the same groups. The aim to segregate groups based on similar traits.Clustering is defined as dividing data points or population into several groups such that similar data points are in the same groups. The aim to segregate groups based on similar traits.
 
-###K-Means Clustering
+### K-Means Clustering
 The most common clustering covered in machine learning for beginners is K-Means. The first step is to create c new observations among our unlabelled data and locate them randomly, called centroids. The number of centroids represents the number of output classes. The first step of the iterative process for each centroid is to find the nearest point (in terms of Euclidean distance) and assign them to its category. Next, for each category, the average of all the points attributed to that class is computed. The output is the new centroid of the class.
 
 With every iteration, the observations can be redirected to another centroid. After several reiterations, the centroid’s change in location is less critical as initial random centroids converge with real ones—the process ends when there is no change in centroids’ position. Many methods can be employed for the task, but a common one is ‘elbow method’. A low level of variation is needed within the clusters measured by the within-cluster sum of squares. The number of centroids and observations are inversely proportional. Thus, setting the highest possible number of centroids would be inconsistent.
 
-###Hierarchical Clustering
+### Hierarchical Clustering
 Two techniques are used by this algorithm- Agglomerative and Divisive. In HC, the number of clusters K can be set precisely like in K-means, and n is the number of data points such that n>K. The agglomerative HC starts from n clusters and aggregates data until K clusters are obtained. The divisive starts from only one cluster and then splits depending on similarities until K clusters are obtained. The similarity here is the distance among points, which can be computed in many ways, and it is the crucial element of discrimination. It can be computed with different approaches:
 
 1. Min: Given two clusters C1 and C2 such that point a belongs to C1 and b to C2. The similarity between them is equal to the minimum of distance
@@ -352,7 +352,7 @@ scaler.fit(X)
 
 scaled_df = scaler.transform(X)
 ```
-###Hierarchical clustering
+### Hierarchical clustering
 ```python
 '''generate the linkage matrix'''
 Z = linkage(scaled_df, 'ward')
